@@ -6,7 +6,8 @@ public class LogoutCommand extends Command {
         return false;
     }
 
-    public void logout(final String user) {
+    public boolean logout(final String user) {
+        return user.equals("test");
     }
 
 }
